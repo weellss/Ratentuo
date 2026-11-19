@@ -1,0 +1,259 @@
+---
+name: Unique Strike
+colors:
+  surface: '#fdf7ff'
+  surface-dim: '#e1d4fb'
+  surface-bright: '#fdf7ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f8f1ff'
+  surface-container: '#f3eaff'
+  surface-container-high: '#eee4ff'
+  surface-container-highest: '#e9ddff'
+  on-surface: '#1f1734'
+  on-surface-variant: '#4d4634'
+  inverse-surface: '#342c4a'
+  inverse-on-surface: '#f6eeff'
+  outline: '#7f7661'
+  outline-variant: '#d1c5ad'
+  surface-tint: '#745c00'
+  primary: '#745c00'
+  on-primary: '#ffffff'
+  primary-container: '#ffd23f'
+  on-primary-container: '#725a00'
+  inverse-primary: '#edc22e'
+  secondary: '#6b4ea4'
+  on-secondary: '#ffffff'
+  secondary-container: '#bfa1fe'
+  on-secondary-container: '#4f3287'
+  tertiary: '#615a77'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#dbd2f4'
+  on-tertiary-container: '#5f5976'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffe089'
+  primary-fixed-dim: '#edc22e'
+  on-primary-fixed: '#241a00'
+  on-primary-fixed-variant: '#574500'
+  secondary-fixed: '#eaddff'
+  secondary-fixed-dim: '#d2bbff'
+  on-secondary-fixed: '#25005a'
+  on-secondary-fixed-variant: '#52358a'
+  tertiary-fixed: '#e7deff'
+  tertiary-fixed-dim: '#cac2e3'
+  on-tertiary-fixed: '#1d1831'
+  on-tertiary-fixed-variant: '#49435f'
+  background: '#fdf7ff'
+  on-background: '#1f1734'
+  surface-variant: '#e9ddff'
+typography:
+  display:
+    fontFamily: Space Grotesk
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 38px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  ticker-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  ticker-md:
+    fontFamily: JetBrains Mono
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  ticker-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system powers a high-stakes, real-time reverse auction and lowest-unique-bid platform. The experience blends calculated game theory with the electrical thrill of live gaming.
+
+### Persona & Atmosphere
+- **Calculated & Game-Theoretic:** Interfaces feel structured, analytical, and fair. Data-dense feeds and real-time ledger records project architectural legitimacy.
+- **Electric Anticipation:** High-contrast focal cues signal shifting dynamics, unique state changes, and imminent countdown terminations without visual chaos.
+- **Refined Tactility:** Physical metaphors surface through responsive lift elevations, distinct structural borders, and punchy, tactile interactive surfaces.
+
+### Visual Architecture
+Drawing from Modern Neobrutalism tempered with luxury game-table polish, the system rejects washed-out generic SaaS tones in favor of a warm parchment canvas (`Ivory`), hyper-focused dark zones (`Deep Ink`), royal game accents (`Royal Purple`), and high-energy spotlight callouts (`Sunshine`).
+
+## Colors
+
+The palette leverages high chromatic contrast to communicate hierarchy, auction states, and instant actionable intelligence.
+
+### Palette Architecture
+- **Primary (`#FFD23F` - Sunshine):** High-alert active state indicator. Reserved exclusively for primary call-to-action buttons (with `#1B1330` text), current lowest unique bid badges, winning outcome highlights, and critical real-time alerts.
+- **Secondary (`#4B2E83` - Royal Purple):** Structural anchor. Powers bidding board containers, headers, ledger columns, and secondary actions (with pure white `#FFFFFF` text).
+- **Tertiary (`#8B84A3` - Lavender Grey):** Calibrated intermediate tone. Directs secondary metadata, bid timestamps, inactive states, and subtle layout divisions.
+- **Neutral Primary (`#1B1330` - Deep Ink):** Core textual content, high-contrast dark sections, and structural focal points.
+- **Surface Canvas (`#FBF8F1` - Ivory):** The warm, non-sterile foundation for base screens.
+- **Surface Elevation (`#FFFFFF` - Pure White):** Reserved for elevated bidding cards, metric tiles, and input surfaces.
+
+### Border Tints & Transparency
+- Surface borders utilize `rgba(75, 46, 131, 0.12)` for standard card edges and `rgba(75, 46, 131, 0.35)` for focused or hovered cards.
+- Bidding boards and active live modules feature structural `rgba(75, 46, 131, 1.0)` bounding contours.
+
+## Typography
+
+The typographic hierarchy is divided into three distinct operational roles:
+
+1. **Space Grotesk (Headings & Structural Titles):** Geometric, technological, and confident. Handles structural auction anchors, card titles, section headers, and promotional banners.
+2. **Plus Jakarta Sans (Body & Microcopy):** Clear, approachable, and highly readable across varying scales. Handles user guidance, legal terms, card descriptions, and operational instructions.
+3. **JetBrains Mono (Quantitative & Temporal Streams):** Strictly reserved for numerical telemetry: countdown timers, currency amounts ($0.01 increments), bid serial IDs, ledger table rows, and uniqueness indicators. Monospace ensures zero horizontal layout shifts as numbers rapidly tick down.
+
+## Layout & Spacing
+
+The layout model runs on a modular 8pt mathematical rhythm using a 12-column responsive fluid grid.
+
+### Breakpoints & Grids
+- **Desktop (1200px+):** 12 columns, `margin: 2rem`, `gutter: 1.25rem`. Bidding boards and analytical live charts occupy asymmetric 8:4 splits.
+- **Tablet (768px - 1199px):** 8 columns, `margin: 1.5rem`, `gutter: 1rem`. Side modules reflow underneath active auction boards.
+- **Mobile (< 768px):** 4 columns, `margin-mobile: 1rem`, `gutter-mobile: 0.75rem`. Auction stats stack vertically into single-column cards with persistent sticky bid action bars docked to the bottom viewport.
+
+### Component Spacing Rhythm
+- **Internal Card Padding:** `space-lg` (24px) for desktop live auction cards; `space-md` (16px) for mobile.
+- **Metric Row Insets:** `space-sm` (8px) between tabular bid amounts, status badges, and user counts.
+- **Board Grid Gap:** `space-md` between discrete bid tiles within the heat-map matrix.
+
+## Elevation & Depth
+
+Visual hierarchy combines physical layer lifting with tinted purple rim-light contours.
+
+### Depth Hierarchy
+- **Level 0 (Flat Floor - `#FBF8F1`):** Structural backdrops, table canvas, and global wrapper containers.
+- **Level 1 (Default Card - `#FFFFFF`):** Base auction cards, statistical panels, and inactive ledger entries. Bounded by a crisp 1px stroke: `rgba(75, 46, 131, 0.12)`. Subtle resting shadow: `0 2px 4px rgba(27, 19, 48, 0.04)`.
+- **Level 2 (Hover / Elevated Card):** When an auction card is hovered or focused, it translates upward by `-4px` (`transform: translateY(-4px)`). Shadow expands dynamically to `0 12px 24px -4px rgba(75, 46, 131, 0.14), 0 4px 8px -2px rgba(27, 19, 48, 0.06)`, and border tint intensifies to `rgba(75, 46, 131, 0.35)`.
+- **Level 3 (Modal / Live Overlay / Bottom Bid Dock):** High-priority panels feature crisp containment shadows: `0 20px 38px -10px rgba(27, 19, 48, 0.28), 0 0 0 1px rgba(75, 46, 131, 0.2)`.
+
+### Dark Sections & Bidding Boards
+Dark interactive regions (`#1B1330`) rely on tonal surface layering (`#251A40` for inner tiles) paired with internal inset highlights (`inset 0 1px 0 rgba(255, 255, 255, 0.1)`) rather than ambient dropshadows.
+
+## Shapes
+
+The design system standardizes on a precise 12px (`0.75rem`) border-radius for cards, input containers, and structural auction blocks, matching `roundedness: 2` with calculated micro-adjustments:
+
+- **Cards & Bidding Modules:** 12px (`0.75rem`).
+- **Buttons & Numerical Input Fields:** 8px (`0.5rem`) for compact control, up to 12px for hero action triggers.
+- **Pills, Countdown Bubbles & Unique Status Badges:** Fully rounded capsule curves (`9999px`) to immediately separate operational tags from rigid layout blocks.
+- **Borders:** Consistent 1px crisp strokes across all cards; 1.5px solid strokes on inputs and active bid boards.
+
+## Components
+
+### Buttons
+- **Primary CTA ("Place Bid", "Confirm Bid"):** 
+  - Background: `#FFD23F` (Sunshine).
+  - Text: `#1B1330` (Deep Ink), `Space Grotesk` 600 weight.
+  - Border: 1px solid `rgba(27, 19, 48, 0.2)`.
+  - Hover: Background `#FFE066`, translation `-2px`, shadow `0 6px 16px rgba(255, 210, 63, 0.4)`.
+- **Secondary Action ("View Ledger", "Auto-Bid Options"):**
+  - Background: `#4B2E83` (Royal Purple).
+  - Text: `#FFFFFF`, `Space Grotesk` 600 weight.
+  - Hover: Background `#5C39A1`, shadow `0 4px 12px rgba(75, 46, 131, 0.3)`.
+- **Ghost / Tertiary Action:**
+  - Background: Transparent.
+  - Text: `#4B2E83`. Border: 1px solid `rgba(75, 46, 131, 0.25)`.
+  - Hover: Background `rgba(75, 46, 131, 0.05)`, border `#4B2E83`.
+
+### Auction Cards
+- **Base State:** Background `#FFFFFF`, 12px radius, 1px border `rgba(75, 46, 131, 0.12)`, padding `space-lg`.
+- **Hover Interaction:** Smooth transition (`200ms cubic-bezier(0.16, 1, 0.3, 1)`), `-4px` vertical lift, intensified purple border `rgba(75, 46, 131, 0.35)`.
+- **Header:** Title in `#1B1330` (`Space Grotesk`), auction timer in `JetBrains Mono` nestled inside a pill container with a pulsing amber beacon.
+
+### Lowest Unique Bid Highlighting & Chips
+- **Unique & Lowest (Winning State):** Filled `#FFD23F` chip with `#1B1330` text in `JetBrains Mono` bold. Framed by a subtle animated amber halo.
+- **Unique But Not Lowest:** `#F3EFFC` background, `#4B2E83` text, `rgba(75, 46, 131, 0.2)` border.
+- **Duplicate / Non-Unique Bid:** `#F1F0F5` background, `#8B84A3` text, cross-out glyph indicator.
+
+### Input Fields (Bid Entry)
+- Currency input containers feature a fixed currency prefix (`$`) in `#8B84A3` and bid values rendered strictly in `JetBrains Mono` 600.
+- Surface: `#FFFFFF` with 1.5px border `rgba(75, 46, 131, 0.2)`.
+- Focus State: Border color `#4B2E83`, box-shadow `0 0 0 3px rgba(75, 46, 131, 0.15)`, outline none.
+
+### The Bidding Matrix / Board
+- An interactive numerical heat-grid mapped inside a `#1B1330` dark-surface enclosure.
+- Individual bid cells: 8px radius, border `1px solid rgba(255, 255, 255, 0.08)`.
+- Color states mapped precisely to auction rules:
+  - Gold (`#FFD23F`) = Current Lowest Unique Bid.
+  - Soft Purple (`#6E4BAE`) = User's Placed Bids.
+  - Lavender Grey Strikethrough (`#8B84A3`) = Contested / Duplicate bids.
